@@ -8,21 +8,25 @@ p,
   padding: 0;
 }
 
+/* Style for the body element */
 body {
   background: #ffe;
-  font: 14px/1.4 "微软雅黑", "宋体", sans-serif;
+  font: 14px/1.4 "Microsoft YaHei", "SimSun", sans-serif;
 }
 
+/* Style for the main container and the canvas */
 #main,
 #canvas {
   width: 1100px;
   height: 680px;
 }
 
+/* Positioning the main container */
 #main {
   position: relative;
 }
 
+/* Style for the letter section */
 #letter {
   position: absolute;
   width: 400px;
@@ -34,6 +38,7 @@ body {
   color: #228567;
 }
 
+/* Style for the clock container */
 #clock-box {
   position: absolute;
   left: 60px;
@@ -43,14 +48,17 @@ body {
   transition: opacity 0.5s;
 }
 
+/* Style for the clock text */
 #clock-text {
   color: gray;
 }
 
+/* Style for the name elements */
 .name {
   color: black;
 }
 
+/* Style for the clock digits */
 #clock {
   margin-left: 48px;
 }
